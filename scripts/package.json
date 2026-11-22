@@ -1,4 +1,8 @@
 {
+  "name": "legal-issue-analysis-scripts",
+  "version": "1.0.0",
+  "releaseDate": "2026-11-22",
+  "lastModified": "2026-11-22",
   "dependencies": {
     "exceljs": "^4.4.0",
     "pdf-parse": "^2.4.5"

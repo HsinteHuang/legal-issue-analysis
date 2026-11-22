@@ -1,6 +1,9 @@
 /**
  * 司法裁判與爭點分析 - 自動化批次執行腳本 (Batch Judgment Analyzer)
  * 
+ * 最後發佈日期 (Release Date): 2026-11-22
+ * 最後修改日期 (Last Modified): 2026-11-22
+ * 
  * 功能:
  *   自動掃描來源目錄 (預設 judgements_org) 中的所有裁判書 (PDF/TXT)，
  *   進行要件事實、涉訟法條、核心爭點設問、法院心證金句之智慧萃取，

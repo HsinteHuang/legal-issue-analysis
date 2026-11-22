@@ -1,5 +1,9 @@
 /**
  * 爭點比對矩陣 Excel 匯出工具 (Export Matrix to Excel)
+ * 
+ * 最後發佈日期 (Release Date): 2026-11-22
+ * 最後修改日期 (Last Modified): 2026-11-22
+ * 
  * 功能: 將 Markdown 報告中的橫向對比矩陣自動轉換為格式精美的 .xlsx 試算表
  */
 

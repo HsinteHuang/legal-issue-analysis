@@ -1,5 +1,9 @@
 /**
  * 金融消費評議決定書自動下載腳本 (FOI Decision Auto-Downloader)
+ * 
+ * 最後發佈日期 (Release Date): 2026-11-22
+ * 最後修改日期 (Last Modified): 2026-11-22
+ * 
  * 目標網站: https://ods.foi.org.tw/
  * 執行環境: Node.js (v18+)
  * 
