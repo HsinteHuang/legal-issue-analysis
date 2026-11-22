@@ -121,7 +121,7 @@ Write-Output "Environment check completed successfully."
   ```
 - **帶參數執行（AI 經使用者確認條件後調用）**：
   ```bash
-  node .agents/skills/legal-issue-analysis/scripts/download_foi_decisions.js --keyword "旅遊不便險" --start "1140101"
+  node .agents/skills/legal-issue-analysis/scripts/download_foi_decisions.js --keyword "告知義務" --start "1150101"
   ```
 
 ---

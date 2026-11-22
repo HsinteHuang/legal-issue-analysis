@@ -614,7 +614,7 @@ async function main() {
     // 如果來源目錄為空，自動檢查是否有備用目錄 (例如 judgments_data 或 判決原文)
     if (files.length === 0) {
         const fallback1 = path.resolve(WORKSPACE_ROOT, 'judgments_data');
-        const fallback2 = path.resolve(WORKSPACE_ROOT, '判決原文/評議決定書_旅遊不便險');
+        const fallback2 = path.resolve(WORKSPACE_ROOT, 'judgements_org');
         let chosenFallback = '';
         if (fs.existsSync(fallback1) && fs.readdirSync(fallback1).some(f => ['.pdf', '.txt', '.md'].includes(path.extname(f).toLowerCase()))) {
             chosenFallback = fallback1;

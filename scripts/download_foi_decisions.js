@@ -13,7 +13,7 @@
  *      (執行後會依序詢問關鍵字、日期等資訊，確認後才開始下載)
  * 
  *   2. 命令列參數執行：
- *      node scripts/download_foi_decisions.js --keyword "告知義務" --start "1140101" --end "1151122"
+ *      node scripts/download_foi_decisions.js --keyword "告知義務" --start "1150101" --end "1151122"
  */
 
 const fs = require('fs');
@@ -85,7 +85,7 @@ async function getParams() {
 
         let keyword = '';
         while (!keyword) {
-            keyword = (await rl.question('👉 請輸入檢索關鍵字 (必填，例如：告知義務 / 旅遊不便險): ')).trim();
+            keyword = (await rl.question('👉 請輸入檢索關鍵字 (必填，例如：告知義務 / 保險金給付): ')).trim();
             if (!keyword) {
                 console.log('   ⚠️ 關鍵字不得為空，請重新輸入！\n');
             }
